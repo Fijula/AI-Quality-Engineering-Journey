@@ -1,0 +1,19 @@
+# Keep the weekly "concept" code on GitHub (.sql + .py).
+# Everything else stays local: the roadmap brain, Medium blog drafts, LinkedIn posts.
+
+# Ignore all markdown (roadmap, blogs, linkedin) — local only
+*.md
+
+# ...except the files we DO want published:
+# (note: .gitignore does not support trailing inline comments)
+!README.md
+!interview/
+!interview/*.md
+!devops/
+!devops/*.md
+
+# Python noise
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
