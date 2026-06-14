@@ -28,6 +28,8 @@ genai-weekly/
 │   └── week-01.md                  # Python environments: venv, pip, conda, Makefile
 ├── interview/
 │   └── week-01.md                  # Week 1 interview Q&A sheet
+├── articles/
+│   └── week-01.md                  # Links to the week's published Medium blogs
 └── README.md
 ```
 
