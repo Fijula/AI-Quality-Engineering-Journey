@@ -33,7 +33,8 @@ genai-weekly/
 ├── interview/
 │   └── week-01.md                  # Week 1 interview Q&A sheet
 ├── articles/
-│   └── week-01.md                  # Links to the week's published Medium blogs
+│   ├── week-01.md                  # Links to the week's published Medium blogs
+│   └── week-02.md
 └── README.md
 ```
 
