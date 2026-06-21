@@ -18,12 +18,16 @@ Plus an **interview sheet** per week — quick Q&A to revise the concepts before
 ```
 genai-weekly/
 ├── coding/
-│   └── week-01/
-│       ├── valid_anagram.py        # Frequency counting (hash map)  — O(n)
-│       └── valid_parentheses.py    # Stack / matching pairs (LIFO)  — O(n)
+│   ├── week-01/
+│   │   ├── valid_anagram.py        # Frequency counting (hash map)  — O(n)
+│   │   └── valid_parentheses.py    # Stack / matching pairs (LIFO)  — O(n)
+│   └── week-02/
+│       ├── two_sum.py              # Hash map / complement lookup   — O(n)
+│       └── longest_palindromic_substring.py  # Expand around center — O(n²)
 ├── sql/
 │   ├── schema.sql                  # Recurring toy schema (PostgreSQL)
-│   └── week-01.sql                 # WHERE → GROUP BY / HAVING
+│   ├── week-01.sql                 # WHERE → GROUP BY / HAVING
+│   └── week-02.sql                 # JOINs: INNER, LEFT, RIGHT, FULL, SELF, CROSS
 ├── devops/
 │   └── week-01.md                  # Python environments: venv, pip, conda, Makefile
 ├── interview/
@@ -43,6 +47,7 @@ genai-weekly/
 | Week | Concept | Coding | SQL | DevOps |
 |------|---------|--------|-----|--------|
 | 01 | AI vs ML vs Deep Learning vs Generative AI | Valid Anagram, Valid Parentheses | `WHERE`, `GROUP BY`, `HAVING` | Python environments: venv, pip, conda, Makefile |
+| 02 | _(testing AI: metrics, hallucinations — in progress)_ | Two Sum, Longest Palindromic Substring | JOINs (INNER/LEFT/RIGHT/FULL/SELF/CROSS) | — |
 
 ---
 
